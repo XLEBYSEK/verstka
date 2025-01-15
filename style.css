@@ -1,5 +1,11 @@
 header h1 {
     text-decoration:none;
     text-align: center;
-    border-bottom: 1px #ff0000 solid;
+    border-bottom: 3px #ff0000 solid;
+    
+}
+
+.textik {
+    font-weight: 700;
+    white-space: normal;
 }
