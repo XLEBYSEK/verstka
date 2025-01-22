@@ -1,11 +1,23 @@
-header h1 {
-    text-decoration:none;
-    text-align: center;
-    border-bottom: 3px #ff0000 solid;
-    
+body {
+    justify-content: center;
+    display:flex;
 }
 
-.textik {
-    font-weight: 700;
-    white-space: normal;
+.container {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.log {
+    text-align: left;
+}
+
+button {
+    margin: 5px;
+    background-color: #ADD8E6;
 }
