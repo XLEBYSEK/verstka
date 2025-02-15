@@ -6,10 +6,10 @@ body {
 .container {
     text-align: center;
     width: 200px;
-    height: 200px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
+    height: 230px;
+    border: 1px solid grey;
+    padding: 15px;
+    margin:10px;
     border-radius: 5px;
 }
 
@@ -18,7 +18,16 @@ body {
 }
 
 button {
-    margin: 5px;
-    background-color: #ADD8E6;
-    border-radius: 5px;
+    margin: 15px;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    color:white;
+}
+
+button:hover {
+    background-color:#1976D2 ;
 }
