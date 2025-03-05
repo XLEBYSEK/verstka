@@ -5,7 +5,7 @@ document.getElementById("btn").addEventListener("click",
         let login = "log"
         let password = "pass"
         if (LoginInput === login && PasswordInput === password) {
-            window.open('lenta.html')
+            window.open('index.html')
 
         }
     
@@ -13,5 +13,6 @@ document.getElementById("btn").addEventListener("click",
         alert("Неверные данные")}
     })
 
+    
 
 

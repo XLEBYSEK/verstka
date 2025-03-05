@@ -1,0 +1,35 @@
+body {
+    justify-content: center;
+    display:flex;
+}
+
+.container {
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    border: 1px solid #b5b5b5;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.log {
+    text-align: left;
+}
+
+button {
+    margin: 5px;
+    background-color: #2196F3;
+    border-color: #2196F3;
+    border:none;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    color:white;
+    font-size: 15px;
+}
+
+button:hover {
+    background:#1976D2;
+}
